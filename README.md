@@ -8,6 +8,11 @@ It also provides context on why a word is exclusive and suggests alternate terms
 
 ![Intro clip](docs/assets/intro.gif)
 
+## Inclusiveness Analyzer for other Platforms
+
+* [Inclusiveness Analyzer GitHub Action](https://github.com/microsoft/InclusivenessAnalyzer)
+* [Inclusiveness Analyzer Azure DevOps Extension](https://github.com/microsoft/InclusivenessAnalyzerAzureDevOps)
+
 ## About the project
 
 As humans, we hold many unconscious and implicit biases that we rely on to react quickly to our environment and any novel stimuli. However, since the unconscious brain processes and reacts with speed, we sometimes speak quickly without thinking, which may cause us to slip offensive terms and stereotypes although we mean no malice. 
