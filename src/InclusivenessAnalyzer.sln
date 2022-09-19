@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InclusivenessAnalyzer", "InclusivenessAnalyzer\InclusivenessAnalyzer\InclusivenessAnalyzer.csproj", "{50988C99-C9FC-4162-91AB-3A660B236130}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InclusivenessAnalyzer.CodeFixes", "InclusivenessAnalyzer\InclusivenessAnalyzer.CodeFixes\InclusivenessAnalyzer.CodeFixes.csproj", "{2B3399FE-CD84-4007-B22B-0E1458F16D0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InclusivenessAnalyzer.Package", "InclusivenessAnalyzer\InclusivenessAnalyzer.Package\InclusivenessAnalyzer.Package.csproj", "{4F6045EC-2BEC-4DC7-83FC-BAA0FB531D8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InclusivenessAnalyzer.Test", "InclusivenessAnalyzer\InclusivenessAnalyzer.Test\InclusivenessAnalyzer.Test.csproj", "{15AEA91F-A180-4244-A73F-3F6E05CAA435}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InclusivenessAnalyzer.Vsix", "InclusivenessAnalyzer\InclusivenessAnalyzer.Vsix\InclusivenessAnalyzer.Vsix.csproj", "{F2280C55-4A32-40AA-9345-593C438E2B85}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InclusivenessAnalyzer.Vsix2022", "InclusivenessAnalyzer\InclusivenessAnalyzer.Vsix2022\InclusivenessAnalyzer.Vsix2022.csproj", "{C40A78E2-EBEE-462C-8B13-DEEDD94039F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50988C99-C9FC-4162-91AB-3A660B236130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50988C99-C9FC-4162-91AB-3A660B236130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50988C99-C9FC-4162-91AB-3A660B236130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50988C99-C9FC-4162-91AB-3A660B236130}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B3399FE-CD84-4007-B22B-0E1458F16D0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B3399FE-CD84-4007-B22B-0E1458F16D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B3399FE-CD84-4007-B22B-0E1458F16D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B3399FE-CD84-4007-B22B-0E1458F16D0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F6045EC-2BEC-4DC7-83FC-BAA0FB531D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F6045EC-2BEC-4DC7-83FC-BAA0FB531D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F6045EC-2BEC-4DC7-83FC-BAA0FB531D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F6045EC-2BEC-4DC7-83FC-BAA0FB531D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15AEA91F-A180-4244-A73F-3F6E05CAA435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15AEA91F-A180-4244-A73F-3F6E05CAA435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15AEA91F-A180-4244-A73F-3F6E05CAA435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15AEA91F-A180-4244-A73F-3F6E05CAA435}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2280C55-4A32-40AA-9345-593C438E2B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2280C55-4A32-40AA-9345-593C438E2B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2280C55-4A32-40AA-9345-593C438E2B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2280C55-4A32-40AA-9345-593C438E2B85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C40A78E2-EBEE-462C-8B13-DEEDD94039F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C40A78E2-EBEE-462C-8B13-DEEDD94039F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C40A78E2-EBEE-462C-8B13-DEEDD94039F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C40A78E2-EBEE-462C-8B13-DEEDD94039F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34F5BA6B-6259-4847-85A5-0C785A9BD1DA}
+	EndGlobalSection
+EndGlobal
