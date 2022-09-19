@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="InclusivenessAnalyzer.e3dc8e6d-fe7c-42d3-912f-8c7952fae954" Version="1.0.1" Language="en-US" Publisher="Inclusiveness Analyzer"/>
+    <Identity Id="InclusivenessAnalyzer.e3dc8e6d-fe7c-42d3-912f-8c7952fae954" Version="1.3.0" Language="en-US" Publisher="Inclusiveness Analyzer"/>
     <DisplayName>Inclusiveness Analyzer VS2022</DisplayName>
     <Description xml:space="preserve">This Roslyn analyzer checks your code for non-inclusive words and suggests alternate words that are inclusive.</Description>
   </Metadata>

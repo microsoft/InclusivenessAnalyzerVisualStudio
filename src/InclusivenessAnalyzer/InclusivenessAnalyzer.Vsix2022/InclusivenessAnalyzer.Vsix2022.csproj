@@ -5,7 +5,7 @@
   <PropertyGroup>
     <TargetFramework>net472</TargetFramework>
     <RootNamespace>InclusivenessAnalyzer.Vsix</RootNamespace>
-    <AssemblyName>InclusivenessAnalyzer.Vsix</AssemblyName>
+    <AssemblyName>InclusivenessAnalyzer2022.Vsix</AssemblyName>
   </PropertyGroup>
 
   <PropertyGroup>
