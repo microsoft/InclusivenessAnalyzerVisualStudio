@@ -8,6 +8,55 @@ It also provides context on why a word is exclusive and suggests alternate terms
 
 ![Intro clip](docs/assets/intro.gif)
 
+## Installing via the NuGet Package
+
+The Inclusiveness Analyzer can be added to any C# project. Just install using NuGet and start writing code. The extension will be automatically loaded in Visual Studio for anyone that opens your project. Using the NuGet package is best when you are working on a project with a team.
+
+[Get from NuGet](https://www.nuget.org/packages/InclusivenessAnalyzer/)
+
+### Install using the NuGet Package Manager user interface
+
+* Open the C# project using Visual Studio
+* Select **Tools** from the menu
+* Select **NuGet Package Manager**
+* Select **Manage NuGet Packages for Solution...**
+* Select **Browse**
+* Search for **inclusiveness**
+* Select the checkbox next to the project(s)
+* Select **Install**
+
+![Screenshot showing nuget install from user interface.](docs/assets/nuget-screenshot1.png)
+
+### Install using the NuGet Package Manager console
+
+* Open the C# project using Visual Studio
+* Select **Tools** from the menu
+* Select **NuGet Package Manager**
+* Select **Package Manager Console**
+* Run `Install-Package InclusivenessAnalyzer`
+
+![Screenshot showing nuget install from command line.](docs/assets/nuget-screenshot2.png)
+> Important Note: The Inclusiveness Analyzer is only used during development time and does not affect your projects outputs or binaries.
+
+## Installing as a Visual Studio Extension
+
+If you would like the Inclusiveness Analyzer to run on any Visual Studio project you can install the extension directly into Visual Studio.
+
+* View and install [Inclusiveness Analyzer for Visual Studio 2022](https://marketplace.visualstudio.com/items?itemName=InclusivenessAnalyzer.inclusivenessanalyzer2022)
+* View and install [Inclusiveness Analyzer for Visual Studio 2019](https://marketplace.visualstudio.com/items?itemName=InclusivenessAnalyzer.inclusivenessanalyzer)
+
+* Open Visual Studio 2019 or Visual Studio 2022
+* Select **Extensions** from the menu
+* Select **Manage Extensions**
+* Search for **Inclusiveness**
+* Select **Download**
+
+The extension is scheduled for install. Your extension will be installed after all instances of Visual Studio have been closed.
+
+![Screenshot showing Inclusiveness Analyzer being added to Visual Studio.](docs/assets/vs-screenshot1.png)
+
+Happy inclusive :heart: coding!
+
 ## Inclusiveness Analyzer for other Platforms
 
 * [Inclusiveness Analyzer GitHub Action](https://github.com/microsoft/InclusivenessAnalyzer)
@@ -15,7 +64,7 @@ It also provides context on why a word is exclusive and suggests alternate terms
 
 ## About the project
 
-As humans, we hold many unconscious and implicit biases that we rely on to react quickly to our environment and any novel stimuli. However, since the unconscious brain processes and reacts with speed, we sometimes speak quickly without thinking, which may cause us to slip offensive terms and stereotypes although we mean no malice. 
+As humans, we hold many unconscious and implicit biases that we rely on to react quickly to our environment and any novel stimuli. However, since the unconscious brain processes and reacts with speed, we sometimes speak quickly without thinking, which may cause us to slip offensive terms and stereotypes although we mean no malice.
 
 In order to confront these biases that we see in ourselves and others, we must rewire ourselves to regularly use inclusive practices (such as the words we speak). If you don't intentionally and proactively include, you will unintentionally exclude.
 
@@ -23,31 +72,7 @@ In order to confront these biases that we see in ourselves and others, we must r
 
 Help us confront these biases by pushing out exclusive terms and making inclusive terms a part of our everyday vocabulary!
 
-## Installing via the NuGet Package
-
-The Inclusiveness Analyzer can be added to any C# project. Just install using NuGet and start writing code. The extension will be automatically loaded in Visual Studio for anyone that opens your project. Using the NuGet package is best when you are working on a project with a team.
-
-[Get from NuGet](https://www.nuget.org/packages/InclusivenessAnalyzer/)
-
-```powershell
-    Install-Package InclusivenessAnalyzer
-```
-
-> Important Note: The Inclusiveness Analyzer is only used during development time and does not affect your projects outputs or binaries.
-
-## Installing as a Visual Studio Extension
-
-If you would like the Inclusiveness Analyzer to run on any Visual Studio project you can install the extension directly into Visual Studio.
-
-[Get from the Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=InclusivenessAnalyzer.inclusivenessanalyzer)
-
-```
-Extensions > Manage Extensions > Search for 'Inclusiveness'
-```
-
-Happy inclusive :heart: coding!
-
-Icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/)
+> Icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/)
 
 ## Contributing
 
